@@ -1,0 +1,13 @@
+#ifndef AnalizatorSygnalu_HPP
+#define AnalizatorSygnalu_HPP
+#include "Sygnal.HPP"
+class Analizator{
+public:
+    Analizator();
+    double dlugosc(const Sygnal& sygnal);
+    double minimum (const Sygnal& sygnal);
+    double srednia(const Sygnal& sygnal);
+    double calka(const Sygnal& sygnal);
+};
+
+#endif // AnalizatorSygnalu_HPP
